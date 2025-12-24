@@ -6,7 +6,7 @@ const isHighRefresh =
     window.matchMedia("(min-resolution: 2dppx)").matches;
 
 const SNOW_INTERVAL = isHighRefresh ? 350 : 200;
-const GIFT_INTERVAL = isHighRefresh ? 2000 : 2000;
+const GIFT_INTERVAL = isHighRefresh ? 4000 : 3000;
 const MAX_SNOW = isHighRefresh ? 60 : 100;
 const MAX_GIFT = 5;
 
